@@ -1,0 +1,120 @@
+/*===============================================================
+
+	Home page
+
+===============================================================*/
+
+#homepage .jumbo {
+	background: #0065B3;
+	background: -webkit-radial-gradient(bottom, #0096D6 12%, #00328F);
+	background: radial-gradient(at bottom, #0096D6 12%, #00328F);
+	color: #fff;
+	padding: 110px 0 60px;
+	text-align: center;
+}
+#homepage .jumbo h1 {
+	font-size: 64px;
+	font-weight: 100;
+	margin: 0 0 10px;
+}
+#homepage .jumbo a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+#homepage .jumbo a:hover {
+	border-bottom: 2px solid rgba(255,255,255,0.7);
+}
+#homepage .jumbo .newadds {
+	font-size: 18px;
+	margin-bottom: 30px;
+	font-weight: 300;
+}
+#homepage .jumbo .input-group {
+	max-width: 640px;
+	margin: 0 auto;
+}
+#homepage .jumbo .main-search {
+	border: 0;
+	height: 48px;
+	line-height: 48px;
+	font-size: 16px;
+	padding: 10px 20px;
+}
+#homepage .jumbo .main-search:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#homepage .jumbo .main-search::-webkit-input-placeholder {
+	color: #888;
+}
+#homepage .jumbo .main-search:-moz-placeholder { /* Firefox 18- */
+	color: #888;  
+}
+#homepage .jumbo .main-search::-moz-placeholder {  /* Firefox 19+ */
+	color: #888; 
+}
+#homepage .jumbo .main-search:-ms-input-placeholder {  
+	color: #888;
+}
+#homepage .jumbo .main-search-btn {
+	background: #fff;
+	border: 0;
+	height: 48px;
+	width: 55px;
+	font-size: 22px;
+	line-height: 1;
+	color: #777;
+	box-shadow: none;
+}
+#homepage .jumbo .main-search-btn:hover {
+	color: #444;
+}
+#homepage .jumbo .main-search-btn:active {
+	box-shadow: none;
+	color: #333;
+}
+#homepage .jumbo .popular-tags {
+	max-width: 600px;
+	margin: 25px auto 0;
+	text-align: center;
+}
+#homepage .jumbo .popular-tags h5 {
+	font-size: 18px;
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+#homepage .jumbo .popular-tags a {
+	display: inline-block;
+	margin: 0 5px 10px;
+}
+#homepage .jumbo .popular-tags a:hover {
+	margin-bottom: 9px;
+}
+#homepage .madeby {
+	margin-top: 40px;
+}
+#homepage .madeby a {
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	background: rgba(255,255,255,0.25);
+	padding: 10px 25px;
+	border-radius: 40px;
+	color: #fff;
+	letter-spacing: 1px;
+	border: 0;
+}
+#homepage .madeby a:hover {
+	background: rgba(255,255,255,0.40);
+	border: 0;
+}
+#homepage .page-wrap {
+	padding-top: 0;
+}
+#homepage #main h1 {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
