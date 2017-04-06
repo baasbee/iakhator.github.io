@@ -30,21 +30,19 @@
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#home">Home</a></li>
-					<li class="all-photos"><a href="/view-photos/sort/date/desc">Products</a></li>					
+					<li><a href="#homepage">Home</a></li>
+					<li><a href="#products">Products</a></li>					
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="/license">Benefits</a></li>
+					<li><a href="#benefits">Benefits</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="/about">About</a></li>
-							<li><a href="/terms">Career</a></li>
-							<li><a href="/privacy">Privacy</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#career">Career</a></li>
 						</ul>
 					</li>
-						<li><a data-toggle="modal" data-target="#login-signup-modal" data-tab-select="login-tab" href="#">Log in</a></li>
-						<li><a data-toggle="modal" data-target="#login-signup-modal" data-tab-select="signup-tab" href="#">Sign up</a></li>
+						<li><a data-toggle="modal" data-toggle="modal" data-target="#myModal" href="#">Log in</a></li>
 				</ul>
 			</div>
 		</div>
@@ -56,7 +54,7 @@
 			<p class="newadds">"If you spend too much time thinking about a thing,
 				you’ll never get it done" <em>– Bruce Lee</em></p>
 			<div class="madeby">
-				<a href="https://snappa.com?utm_source=stocksnap&amp;utm_medium=home&amp;utm_campaign=home" target="_blank">Made by Snappa</a>
+				<a href="https://linkedin.com/in/iakhator" target="_blank">Made by Akhator Itua</a>
 			</div>
 		</div>
 	</div>
@@ -86,7 +84,7 @@
 			</div>
 			
 		</div>
-		<div class="products">
+		<div id="products" class="products">
 			<div class="container">
 				<h1>Our Products</h1>
 				<div class="well">
@@ -94,20 +92,100 @@
 				</div>
 			</div>
 		</div>
-		<div class="benefits">
+		<div id="benefits" class="benefits">
 			<div class="container">
 				<div class="row benefits">
 					<h1>Benefits</h1>
 					<div class="col-md-6">
-						<div class="col-md-2"><h3><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></h3></div>
+						<div class="col-md-2"><h3><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></h3></div>
 						<div class="col-md-10">
 							<h3>Conduct Business More Efficiently</h3>
 							Handle hundreds of common business situations more rapidly. Centralize and better organize your company’s digital documents and improve employees’ productivity.
 						</div>
+						<div class="col-md-2"><h3><i class="fa fa-bullhorn fa-2x" aria-hidden="true"></i></h3></div>
+						<div class="col-md-10">
+							<h3>Improve Your Communications</h3>
+							Communicate accurately with customers, partners, employees, investors and bankers. Be better prepared to face difficult situations such as firing an employee or collecting dues. Get rid of the pain associated with finding the appropriate wording.
+						</div>
+						<div>
+							<div class="col-md-2"><h3><i class="fa fa-money fa-2x" aria-hidden="true"></i></h3></div>
+							<div class="col-md-10">
+								<h3>Save Money</h3>
+								Save on consultants’, lawyers’ and accountants’ fees by using reliable legal forms. Protect your organization and improve your ability to negotiate better deals. Write the most sophisticated documents by yourself!
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-md-6">
+						<div>
+							<div class="col-md-2"><h3><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></h3></div>
+							<div class="col-md-10">
+								<h3>Save Time & Effort</h3>
+								Business Toolkit is the fastest & easiest way to write any business document. Save time with pre-formatted templates; fill-in the blanks and be ready to print within minutes!
+							</div>
+						</div>
+						<div>
+							<div class="col-md-2"><h3><i class="fa fa-user fa-2x" aria-hidden="true"></i></h3></div>
+							<div class="col-md-10">
+								<h3>Relevant for different Key Roles</h3>
+								The contents of Business Toolkit would be relevant to Entrepreneurs, Presidents/CEOs, Vice-Presidents, Consultants, Lawyers, Accountants, HR Managers, Operations Managers, Marketing Managers, Account Executives, Secretaries, Customer Service and more…
+							</div>
+						</div>
+						<div>
+							<div class="col-md-2"><h3><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></h3></div>
+							<div class="col-md-10">
+								<h3>Buy Online & Download Instantly</h3>
+								Immediately after your online order is accepted you are provided with a download link. Start using Business Toolkit within minutes of payment!
+							</div>
+						</div>
+						
 					</div>
 				</div>
 			</div>
 		</div>
+		
+		
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+			<h3 class="text-center">LOGIN HERE</h3>
+      </div>
+      <div class="modal-body">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				LOGIN
+			</div>
+			<div class="panel-body">
+				<form action="">
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" class="form-control" id="email" name="email">
+			</div>
+			<div class="form-group">
+				<label for="username">Password</label>
+				<input type="password" class="form-control" id="password" name="password">
+			</div>
+			<button type="button" class="btn btn-primary">Login</button>
+		</form>
+			</div>
+		</div>
+		
+		<div class="social text-center">
+			<p>SIGN-IN WITH:</p>
+			<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
